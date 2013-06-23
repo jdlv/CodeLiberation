@@ -2,6 +2,7 @@ CodeLiberation
 ==============
 
 // C++ homework assignments
+// main.cpp is class notes and workspace
 
 Week 1
 Instructor: Mei Chan
