@@ -1,34 +1,20 @@
-//
-//  main.cpp
+
 //  CodeLiberation
 //
-//  Created by Jennifer de la Vega on 6/19/13.
+//  Created by Jennifer de la Vega on 6/21/13.
 //  Copyright (c) 2013 Jenn de la Vega. All rights reserved.
 //
 
-#include <iostream> // preprocessor
-#include <string> // a library
+#include <iostream>
 using namespace std;
-int main() {
-    cout << "What kind of fruit would you like?";
+
+int main ()
+{
+    int username;
+    cout << "Up for a healthy debate? What's your name?" << endl;
+    cin >> username;
     
-    /*
-    string fruit;
-    cin >> fruit;
-    if ( fruit == "apple" ) {
-        cout << "Here, have an apple";
-    }
-    if ( fruit == "banana" ) {
-     cout << "Here, haz a banana!";
-    }
-     
-    else if ( fruit == "orange" ) {
-        cout << "Here, have an orange";
-    }
-    else {
-        cout << "I don't have have one of those, sorry.";
-   }
-    */
-    
-    system("pause");
+    cout << "Let's rumble." << endl;
+    cout << "Your mental capacity: 100" << endl;
+    cout << "Contrarian's mental capacity: 100" << endl;
 }
