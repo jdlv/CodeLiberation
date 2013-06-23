@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		77CB7ABF177270FC0038C579 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77CB7ABE177270FC0038C579 /* main.cpp */; };
 		77CB7AC1177270FC0038C579 /* CodeLiberation.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77CB7AC0177270FC0038C579 /* CodeLiberation.1 */; };
-		77CB7AC91774EFCF0038C579 /* homework_06192013.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77CB7AC71774EFCF0038C579 /* homework_06192013.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		77CB7ABB177270FC0038C579 /* CodeLiberation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeLiberation; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CB7ABE177270FC0038C579 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		77CB7AC0177270FC0038C579 /* CodeLiberation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CodeLiberation.1; sourceTree = "<group>"; };
-		77CB7AC71774EFCF0038C579 /* homework_06192013.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = homework_06192013.cpp; sourceTree = "<group>"; };
-		77CB7AC81774EFCF0038C579 /* homework_06192013.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homework_06192013.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				77CB7ABE177270FC0038C579 /* main.cpp */,
-				77CB7AC71774EFCF0038C579 /* homework_06192013.cpp */,
-				77CB7AC81774EFCF0038C579 /* homework_06192013.h */,
 				77CB7AC0177270FC0038C579 /* CodeLiberation.1 */,
 			);
 			path = CodeLiberation;
@@ -123,7 +118,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				77CB7ABF177270FC0038C579 /* main.cpp in Sources */,
-				77CB7AC91774EFCF0038C579 /* homework_06192013.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +216,7 @@
 				77CB7AC6177270FC0038C579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
