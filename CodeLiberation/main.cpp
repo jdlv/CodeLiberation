@@ -6,15 +6,16 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main ()
 {
-    int username;
-    cout << "Up for a healthy debate? What's your name?" << endl;
-    cin >> username;
+    string pokemon;
+    cout << "A wild Pikachu appears! Which Pokemon do you send out?" << endl;
+    cin >> pokemon;
     
-    cout << "Let's rumble." << endl;
-    cout << "Your mental capacity: 100" << endl;
-    cout << "Contrarian's mental capacity: 100" << endl;
+    cout << "\nYou send out " << pokemon << endl;
+    cout << "Pikachu: 100" << endl;
+    cout << pokemon << ": 100" << endl;
 }
