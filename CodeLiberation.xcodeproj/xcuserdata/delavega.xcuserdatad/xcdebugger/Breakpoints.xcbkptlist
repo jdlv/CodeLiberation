@@ -8,13 +8,24 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "CodeLiberation/main.cpp"
-         timestampString = "393900489.824701"
+         timestampString = "393904152.017638"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "78"
-         endingLineNumber = "78"
+         startingLineNumber = "68"
+         endingLineNumber = "68"
          landmarkName = "main ()"
          landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "CodeLiberation/main.cpp"
+         timestampString = "393904152.017638"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "55"
+         endingLineNumber = "55">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

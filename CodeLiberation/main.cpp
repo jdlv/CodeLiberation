@@ -32,47 +32,36 @@ int main ()
     {
         case 1:
             cout << "\nYour " << pokemon << " attacked the wild Pikachu and took 10 HP of damage!" << endl;
-            break;
-        case 2:
-            cout << "\nYour " << pokemon << " defended itself and took 5 HP of damage from the wild Pikachu!" << endl;
-            break;
-        default:
-            cout << "\nThe wild Pikachu is getting antsy, tell your " << pokemon << " to attack or defend!" << endl;
-    }
-        do
-    {
-        if (choice == 1 && enemyLife && playerLife > 0)
-        {
             cout << "Pikachu HP: " << enemyLife - 25 << endl;
             cout << pokemon << " HP: " << playerLife - 10 << endl;
             cout << "\nThe battle wages on! Press 1 to attack or 2 to defend!" << endl;
             cin >> choice;
-        }
-        else if (choice == 2 && enemyLife && playerLife > 0)
-        {
+            break;
+            
+        case 2:
+            cout << "\nYour " << pokemon << " defended itself and took 5 HP of damage from the wild Pikachu!" << endl;
             cout << "Pikachu HP: " << enemyLife << endl;
             cout << pokemon << " HP: " << playerLife - 5 << endl;
             cout << "\nThe battle wages on! Press 1 to attack or 2 to defend!" << endl;
             cin >> choice;
-        }
-        else if (enemyLife && playerLife > 0)
-        {
+            break;
+            
+        default:
+            cout << "\nThe wild Pikachu is getting antsy, tell your " << pokemon << " to attack or defend!" << endl;
             cout << "Pikachu HP:" << enemyLife << endl;
             cout << pokemon << " HP: " << playerLife << endl;
             cout << "\nThe battle wages on! Press 1 to attack or 2 to defend!" << endl;
             cin >> choice;
-        }
-    } while (enemyLife && playerLife > 0);
+    }
+    while (enemyLife && playerLife > 0);
     
     if (enemyLife <= 0)
     {
         cout << "The wild Pikachu has fainted! You win!";
-    
     }
-        else
+    else if (playerLife <= 0)
     {
         cout << "Your " << pokemon << " has fainted and the wild Pikachu has run away! You lose!" << endl;
     }
- 
-    
-}
+
+        }
