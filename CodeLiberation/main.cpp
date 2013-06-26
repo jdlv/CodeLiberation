@@ -31,12 +31,45 @@ int main ()
     switch (choice)
     {
         case 1:
-            cout << "Your " << pokemon << " attacked the wild Pikachu and took 10HP of damage!" << endl;
+            cout << "Your " << pokemon << " attacked the wild Pikachu and took 10 HP of damage!" << endl;
             break;
         case 2:
-            cout << "Your " << pokemon << " defended itself and took 5HP of damage from the wild Pikachu!" << endl;
+            cout << "Your " << pokemon << " defended itself and took 5 HP of damage from the wild Pikachu!" << endl;
+            break;
         default:
-            cout << "The wild Pikachu is getting antsy, tell your " << pokemon << "to attack or defend!" << endl;
+            cout << "The wild Pikachu is getting antsy, tell your " << pokemon << " to attack or defend!" << endl;
     }
+        do
+    {
+        if (choice == 1 && enemyLife && playerLife > 0)
+        {
+            cout << "Pikachu HP: " << enemyLife - 25 << endl;
+            cout << pokemon << " HP: " << playerLife - 10 << endl;
+            cout << "The battle wages on! Press 1 to attack or 2 to defend!" << endl;
+            cin >> choice;
+        }
+        else if (choice == 2 && enemyLife && playerLife > 0)
+        {
+            cout << "Pikachu HP: " << enemyLife << endl;
+            cout << pokemon << " HP: " << playerLife - 5 << endl;
+            cout << "The battle wages on! Press 1 to attack or 2 to defend!" << endl;
+            cin >> choice;
+        }
+        else if (enemyLife && playerLife > 0)
+        {
+            cout << "Pikachu HP:" << enemyLife << endl;
+            cout << pokemon << " HP: " << playerLife << endl;
+            cout << "The battle wages on! Press 1 to attack or 2 to defend!" << endl;
+            cin >> choice;
+        }
+        else if (enemyLife <= 0)
+    {
+        cout << "The wild Pikachu has fainted! You win!";
+    }
+        else if (playerLife <= 0)
+    
+    {
+        cout << "Your " << pokemon << " has fainted and the wild Pikachu has run away! You lose!" << endl; 
+    }
+    } while (enemyLife && playerLife > 0);
 }
-
